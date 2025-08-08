@@ -39,6 +39,11 @@ public class Main {
         }
     }
     
+    /**
+     * Gets a single number to be calculated
+     * A general Scanner is needed
+     * @return The number
+     */
     public static double getNumberInput() {
         double num;
         
@@ -58,6 +63,9 @@ public class Main {
         return num;
     }
     
+    /**
+     * Prints a standard line
+     */
     public static void line() {
         System.out.println("-".repeat(35));
     }
